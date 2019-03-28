@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.stayAtBottomInput
+{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/*Message CSS*/
+.message-user-details{
+  display:inline-flex;
+}
+.message-user-img{
+  width:60px; 
+  height:60px;
+}
+
+.mainContainer
+{
+  display: flex;
+  flex-direction: column;
+  margin:2rem;
+}
+
+.SenderInfoContainer
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.UserNameAndTimeContainer
+{
+  display: flex;
+  flex-direction: column;
+  align-self:center;
+  margin-left: 1rem;
+  align-items: flex-start;
+}
+
+.messageContainer
+{
+  background-color: #FFFCE6;
+  align-self: flex-start;
+  border-radius: 14px;
+    padding: 0.7rem;
+
+}
+
+.messageContainer p{
+      word-wrap: break-word;
+      text-align: left;
+}
+.scrollableContainer
+{
+  overflow-y: scroll;
+}
+
+.message-buttons{
+  display: inline-flex;
+  margin-left: auto;
+}
+
+.displayNone{
+  display: none;
+}
+
+.editableMessageText{
+  width:90vw;
+}
