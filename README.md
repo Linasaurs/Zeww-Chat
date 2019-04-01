@@ -1,68 +1,39 @@
+## Zeww-Chat
+Implementation of the View-Controller API for the message component, and the UI interface for the Chat component for Zeww.
+
+
+## About Zeww
+
+Zeww is a communication tool for big teams and groups. Zeww enables its users to create a workspace, invite members, and create internal  channel topics within the workspace.
+
+Zeww is a collabrative project developed by a group of junior developers to practice the following technologies; ASP.Net Core, Entity Framework, SQLExpress, ReactJS, and SignalR. The main objective of the project is to build a working product in a pre-defined timeframe following the Scrum methodology to manage the development process and MVC design pattern, with empathis on team communication and code integration.
+
+## Zeww Features
+
+- Sign up
+- Sign in
+- Create a new workspace
+- Add workspace icon
+- Join a pre-existing workspace
+- Invite other members to workspace
+- Direct message other members of workspace
+- Create channels within workspace
+- Upload/Download files sent over a channel
+- Omnisearch within a workspace
+- View other workspace member status (Online, offline, busy, etc.)
+- Like, Edit, Delete messages.
+
+## Final proudct
+ 
+ Zeww Front-end (https://github.com/Linasaurs/Zeww-FrontEnd)</br>
+ Zeww server side (https://github.com/Linasaurs/Zeww)
+
+## Running the component
+run Zeww server on the local host </br>
+`npm --save install` </br>
+`npm start </br>
+
+Note: Make sure that user is registered within the database, authenticate with userId and run component.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
